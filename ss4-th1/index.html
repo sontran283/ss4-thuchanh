@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <style>
+        #parent {
+            width: 100%;
+            height: 100px;
+            position: relative;
+            overflow: hidden;
+            background-color: #389ac7;
+        }
+
+        #child {
+            position: absolute;
+            width: 100%;
+            font-size: 30px;
+            font-weight: 800;
+            color: #bf8d42;
+            font-family: sans-serif;
+            animation-name: marquee;
+            animation-duration: 30s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes marquee {
+            from {
+                left: 0%;
+            }
+
+            to {
+                left: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <p id="child">
+            HELLO-rikkei academy
+        </p>
+    </div><br>
+
+</body>
+
+</html>

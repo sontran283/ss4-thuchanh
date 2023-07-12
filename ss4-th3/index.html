@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>BAI 1</h1><br>
+    <button class="submit">submit</button>
+    <style>
+        .submit {
+            width: 50%;
+            border-top: 4px solid red;
+            border-right: 6px dotted blue;
+            border-bottom: 8px double green;
+            border-left: 10px groove purple;
+        }
+    </style><br>
+    <h1>BAI 2</h1><br>
+    <div class="img" style="padding: 20px 100px;">
+        <img style="width: 600px;  height: 400px;"
+            src="https://img5.thuthuatphanmem.vn/uploads/2021/12/29/hinh-anh-nho-1-nguoi-dep-nhat_044135937.jpg" alt="">
+    </div>
+    <style>
+        .img {
+            width: 600px;
+            height: 400px;
+            text-align: center;
+            background-color: chartreuse;
+            box-shadow: 20px 50px 2px 0px black;
+        }
+    </style><br><br>
+    <h1>BAI 3</h1>
+    <div class="BIG">BIG</div>
+    <style>
+        .BIG {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            text-align: center;
+            line-height: 200px;
+            transition: all 2s ease-in-out;
+        }
+
+        .BIG:hover {
+            transform: translate(300px);
+            transform: rotate(180deg);
+        }
+    </style><br><br>
+    <h1>BAI 4</h1>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #F5F5F5;
+        }
+
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            transform: rotate(0);
+            transition: transform 0.5s ease;
+        }
+
+
+        .box:hover {
+            transform: rotate(360deg);
+            animation: pulse 0.5s infinite;
+        }
+
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(52, 152, 219, 0.4);
+            }
+
+            70% {
+                box-shadow: 0 0 0 10px rgba(52, 152, 219, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(52, 152, 219, 0);
+            }
+        }
+    </style><br><br>
+    <h1>BAI 5</h1><br>
+    <div class="container">
+        <h1>vn exprest</h1>
+        <p>“Nhận được tin Thịnh giành được kết quả như vậy từ đấu trường quốc tế, vợ chồng tôi rất vui mừng và hạnh phúc
+            vì những nỗ lực cố gắng của con được đền đáp xứng đáng. Tuy vậy, đây mới chỉ là những bước đầu bước vào thế
+            giới kiến thức rộng lớn, con còn phải phấn đấu và học hỏi nhiều ở chặng đường phía trước”, chị Họa chia sẻ.
+        </p>
+        <div class="image"></div>
+    </div>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            position: absolute;
+            top: 100px;
+            right: 50px;
+            width: 300px;
+            height: 200px;
+            background-image: url('https://toigingiuvedep.vn/wp-content/uploads/2022/01/anh-meo-cute.jpg');
+            background-size: cover;
+            background-position: center;
+            border: 5px solid black;
+        }
+    </style>
+</body>
+
+</html>
